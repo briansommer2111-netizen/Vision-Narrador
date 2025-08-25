@@ -1,0 +1,58 @@
+{
+  "tipo": "completo",
+  "timestamp": "20250825_142558",
+  "estado_completo": {
+    "version": "2.0",
+    "metadata": {
+      "novel_title": "",
+      "genre": "",
+      "target_audience": "",
+      "creation_date": "2025-08-25T14:25:58.481517",
+      "last_modified": "2025-08-25T14:25:58.481517",
+      "total_chapters_planned": 0,
+      "current_chapter_count": 0
+    },
+    "processing_state": {
+      "last_processed_chapter": "",
+      "chapters_in_queue": [],
+      "failed_chapters": [],
+      "processing_mode": "manual",
+      "quality_level": "high"
+    },
+    "entities": {
+      "characters": {},
+      "locations": {}
+    },
+    "processing_history": [],
+    "system_state": {
+      "models_loaded": {},
+      "cache_status": {
+        "entities_cache_size": 0,
+        "audio_cache_size_mb": 0.0,
+        "images_cache_size_mb": 0.0,
+        "cache_hit_rate": 0.0
+      },
+      "health_metrics": {
+        "last_backup": null,
+        "backup_integrity_check": "pending",
+        "error_count_24h": 0,
+        "warning_count_24h": 0
+      },
+      "configuration": {
+        "automation_level": "manual",
+        "quality_preference": "balanced",
+        "fallback_strategies_enabled": true,
+        "automatic_cleanup": true
+      }
+    },
+    "project_analytics": {
+      "total_processing_time_hours": 0.0,
+      "total_entities_created": 0,
+      "total_audio_files": 0,
+      "total_images": 0,
+      "total_videos": 0,
+      "success_rate": 1.0
+    }
+  },
+  "checksum": "06b6a2d40bf5b4bae45a02851ac060ddc549f208ed9b9faabaef7431cf890ec4"
+}

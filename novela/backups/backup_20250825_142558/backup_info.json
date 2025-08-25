@@ -1,0 +1,12 @@
+{
+  "timestamp": "20250825_142558",
+  "fecha_creacion": "2025-08-25T14:25:58.471624",
+  "version": "2.0",
+  "archivos_respaldados": [
+    "state.json"
+  ],
+  "checksums": {
+    "state.json": "9e6efaa16c068ec86f53a7fcf8c3c667cd5e01ebc2e434dd8e45e002b833b225"
+  },
+  "estado": "completado"
+}

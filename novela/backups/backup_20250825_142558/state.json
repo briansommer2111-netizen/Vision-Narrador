@@ -1,0 +1,18 @@
+{
+  "novel_title": "",
+  "last_processed_chapter": "",
+  "entities": {
+    "characters": {},
+    "locations": {},
+    "objects": {},
+    "events": {}
+  },
+  "project_settings": {
+    "style_prompt": "webtoon, anime, flat illustration, digital art, clean lines",
+    "default_voice_model": "tts_models/es/css10/vits",
+    "video_resolution": "1080x1920",
+    "automation_level": "manual"
+  },
+  "processing_history": [],
+  "version": "1.0"
+}

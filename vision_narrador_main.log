@@ -1,0 +1,32 @@
+2025-08-25 14:23:49,153 - root - ERROR - Traceback (most recent call last):
+  File "C:\Users\Pc\Desktop\Vision-Narrador\main.py", line 157, in process_chapters
+    self.pipeline = VisionNarradorPipeline(self.config)
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Pc\Desktop\Vision-Narrador\vision_narrador_pipeline.py", line 38, in __init__
+    self.ruta_proyecto.mkdir(parents=True, exist_ok=True)
+    ^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'VisionNarradorConfig' object has no attribute 'mkdir'
+
+2025-08-25 14:24:13,444 - VisionNarrador.AIChat - ERROR - Error en procesamiento: 'VisionNarradorConfig' object has no attribute 'mkdir'
+2025-08-25 14:24:39,192 - VisionNarrador.AIChat - ERROR - Error manejando entidades: No module named 'workspace_manager'
+2025-08-25 14:25:58,469 - WorkspaceManagerAvanzado_1778203572304 - INFO - 🚀 Inicializando Workspace Manager Avanzado...
+2025-08-25 14:25:58,470 - ConfiguracionUltraRobusta_1778203676752 - INFO - 🚀 Iniciando inicialización completa del sistema...
+2025-08-25 14:25:58,470 - configuracion_ultra_robusta - INFO - 🔄 Creando backup automático: novela\backups\backup_20250825_142558
+2025-08-25 14:25:58,472 - configuracion_ultra_robusta - INFO - ✅ Backup creado exitosamente: novela\backups\backup_20250825_142558
+2025-08-25 14:25:58,472 - ConfiguracionUltraRobusta_1778203676752 - INFO - 🔧 Configurando ambiente automáticamente...
+2025-08-25 14:25:58,475 - ConfiguracionUltraRobusta_1778203676752 - INFO - ✅ Ambiente configurado automáticamente
+2025-08-25 14:25:58,476 - ConfiguracionUltraRobusta_1778203676752 - INFO - 🔍 Iniciando validación de dependencias críticas...
+2025-08-25 14:25:58,476 - configuracion_ultra_robusta - INFO - 🔍 Iniciando validación completa del sistema...
+2025-08-25 14:25:58,480 - configuracion_ultra_robusta - INFO - ✅ Validación completa finalizada - Estado: perfecto
+2025-08-25 14:25:58,481 - ConfiguracionUltraRobusta_1778203676752 - INFO - ✅ Todas las dependencias críticas validadas
+2025-08-25 14:25:58,481 - ConfiguracionUltraRobusta_1778203676752 - INFO - ✅ Sistema inicializado completamente con éxito
+2025-08-25 14:25:58,481 - gestor_estado_avanzado - INFO - 🔄 Inicializando sistema de estado avanzado...
+2025-08-25 14:25:58,481 - gestor_estado_avanzado - WARNING - ⚠️ Estado corrupto, intentando recuperación...
+2025-08-25 14:25:58,481 - gestor_estado_avanzado - INFO - 🔄 Iniciando recuperación automática de estado...
+2025-08-25 14:25:58,481 - gestor_estado_avanzado - INFO - 🆕 Creado estado inicial por defecto
+2025-08-25 14:25:58,481 - gestor_estado_avanzado - INFO - ✅ Backup completo creado: novela\backups_estado\backup_completo_20250825_142558.json
+2025-08-25 14:25:58,484 - WorkspaceManagerAvanzado_1778203572304 - INFO - 📁 Directorios creados: cuarentena
+2025-08-25 14:25:58,485 - WorkspaceManagerAvanzado_1778203572304 - INFO - 🔍 Escaneando workspace...
+2025-08-25 14:25:58,489 - WorkspaceManagerAvanzado_1778203572304 - INFO - ✅ Escaneo completado: 3 archivos encontrados
+2025-08-25 14:25:58,490 - workspace_manager_avanzado - INFO - 🔍 Monitor de integridad iniciado
+2025-08-25 14:25:58,495 - WorkspaceManagerAvanzado_1778203572304 - INFO - ✅ Workspace Manager Avanzado inicializado correctamente

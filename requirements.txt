@@ -1,0 +1,30 @@
+# Vision-Narrador - Pipeline de Adaptación de Novelas a Videos Webtoon
+# Requisitos de Python (requiere Python 3.9)
+
+# Procesamiento de Lenguaje Natural
+transformers>=4.0
+torch>=2.0.0
+spacy>=3.4.0
+# Para usar: python -m spacy download es_core_news_lg
+
+# Generación de Imágenes
+openvino-dev[tensorflow]>=2023.1.0
+Pillow>=10.0.0
+opencv-python>=4.8.0
+
+# Síntesis de Voz
+TTS @ git+https://github.com/coqui-ai/TTS.git
+librosa>=0.10.0
+
+# Edición de Video
+moviepy>=1.0.3
+
+# Utilidades y Configuración
+jsonschema>=4.17.0
+rich>=13.0.0
+typer>=0.9.0
+python-dotenv>=1.0.0
+
+# Desarrollo y Testing
+pytest>=7.4.0
+black>=23.0.0

@@ -1,0 +1,21 @@
+{
+  "perfil_hardware": "rendimiento_medio",
+  "hardware_detectado": {
+    "cpu_cores": 12,
+    "memoria_total_gb": 15.949748992919922,
+    "memoria_disponible_gb": 7.003566741943359,
+    "espacio_disco_gb": 333.8609962463379,
+    "gpu_disponible": false,
+    "cpu_arquitectura": "AMD64",
+    "sistema_operativo": "Windows",
+    "python_version": "3.11.5 (tags/v3.11.5:cce6ba9, Aug 24 2023, 14:38:34) [MSC v.1936 64 bit (AMD64)]"
+  },
+  "configuracion_procesamiento": {
+    "chunk_size_palabras": 1000,
+    "workers_paralelos": 4,
+    "usar_gpu": false,
+    "optimizar_cpu": true
+  },
+  "timestamp_configuracion": "2025-08-25T14:25:58.474620",
+  "version_configuracion": "2.0"
+}
